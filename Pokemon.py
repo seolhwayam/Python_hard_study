@@ -1,3 +1,4 @@
+#포켓몬 프로젝트
 class Pokemon:
     def __init__(self, owner, skills):
         self.owner = owner
@@ -14,9 +15,6 @@ class Pokemon:
 
     def attack(self, idx):
         print(f'{self.skills[idx]} 공격 시전!')
-
-
-
 
 class Pikachu(Pokemon):
     def __init__(self, owner, skills):
@@ -46,9 +44,6 @@ class Pairi(Pokemon):
     def attack(self, idx):
         print(f'[파읠파읠] {self.owner}의 {self.name}가 {self.skills[idx]} 공격 시전!')
 
-
-
-
 while True:
     print("1) 포켓몬 생성  2) 프로그램 종료 : ")
     choice = int(input())
@@ -75,7 +70,7 @@ while True:
             attackpick = int(input())-1
             Pairi1.attack(attackpick)
     elif choice == 2:
-        print("프로그램을 종료합니다")
+        print("프로그램을 종료합니다.")
         break
     else :
         print("잘못 입력되었습니다. 다시 선택해주세요.")
