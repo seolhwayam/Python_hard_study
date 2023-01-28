@@ -16,7 +16,7 @@
 # 기본값으로 키 값을 꺼낸다.
 # for k in fruits:
 #     print(k)
-
+#=====================================================
 
 fruits = {'apple':'사과',
           'watermelon':'수박',
@@ -73,7 +73,7 @@ while True:
         break
     if alcohol in alcohol_foods.keys():
         print('{0}에 어울리는 안주는 {1}입니다.'.format(alcohol, alcohol_foods[alcohol]))
-    elif alcohol == '아무거나'
+    elif alcohol == '아무거나':
         print(random.choice(alcohol_foods))
     else:
         print('{0}은 판매하지 않습니다. 메뉴에서 골라주세요~'.format(alcohol))
