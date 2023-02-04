@@ -11,3 +11,28 @@ def fibo_recursion(n):
     :param n:
     :return:
     """
+    if n == 1:
+        return 1
+    if n == 2:
+        return 1
+    else:
+        return fibo_recursion(n-1) + fibo_recursion(n-2)
+
+for k in range(1,8):
+    print('피보나지 {0} : {1}'.format(k,fibo_recursion(k)))
+
+
+# 함수의 매개변수로 함수 전달하기
+
+
+def print_hi(hi):
+    for k in range(5):
+        hi()
+
+def hi():
+    print('hello~')
+
+
+hi()
+
+print_hi(hi)
