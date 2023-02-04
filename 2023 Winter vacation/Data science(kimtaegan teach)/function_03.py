@@ -32,7 +32,5 @@ def print_hi(hi):
 def hi():
     print('hello~')
 
-
 hi()
-
 print_hi(hi)
