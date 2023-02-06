@@ -30,8 +30,7 @@ def print_hi(hi):
         hi()
 
 def hi():
-    print('hello~')
+    print('Hello~')
 
 hi()
 print_hi(hi)
-
