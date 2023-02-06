@@ -34,3 +34,4 @@ def hi():
 
 hi()
 print_hi(hi)
+
