@@ -87,7 +87,9 @@ print(fruits)
 #=======================================================
 #딕셔너리 원소지정삭제
 del fruits['apple']
+del fruits['kiwi']
 print(fruits)
+
 #딕셔너리 삭제
 del fruits
 
