@@ -47,10 +47,6 @@ for k in fruits:
     print(k)
 
 
-
-<<<<<<< HEAD
-=======
-
 #음식 추천 프로그램 v0.2
 # alcohol_foods = {'맥주':'치킨','와인':'치즈','고량주':'짬뽕','소주':'골뱅이소면'}
 # while True:
