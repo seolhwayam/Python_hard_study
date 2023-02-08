@@ -9,14 +9,22 @@
 # 파일객체.close()
 
 # 쓰기 모드(w)
-fp = open('war_flower.txt','w') # 파일 쓰기
+# fp = open('war_flower.txt','w') # 파일 쓰기
 
-# 1) print('글쓰기',file = 파일객체)
-print('고니',file=fp) #실제 쓰기
-print('정마담',file=fp) #실제 쓰기
-print('아귀',file=fp) #실제 쓰기
+# # 1) print('글쓰기',file = 파일객체)
+# print('고니',file=fp) #실제 쓰기
+# print('정마담',file=fp) #실제 쓰기
+# print('아귀',file=fp) #실제 쓰기
+#
+# # 2) 파일객체.write('글쓰기')
+# fp.write('너부리') # 실제 쓰기
+#
+# fp.close() #파일 닫기
 
-# 2) 파일객체.write('글쓰기')
-fp.write('너부리') # 실제 쓰기
+# 읽기 모드(r)
+fp = open('wf.txt','r')
+for line in fp:
+    print(line, end='')
 
-fp.close() #파일 닫기
+fp.close()
+
