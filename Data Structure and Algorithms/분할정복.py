@@ -7,8 +7,14 @@ def merge_sort(a):
     mid = n // 2
 
     g1 = merge_sort(a[:mid])
+    print('g1->',end='')
+    print(g1)
 
     g2 = merge_sort(a[mid:])
+    print('g2->', end='')
+    print(g2)
+
+
 
     result = []
 
